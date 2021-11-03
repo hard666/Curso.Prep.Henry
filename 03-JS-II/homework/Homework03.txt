@@ -1,0 +1,48 @@
+ANTE TODO QUIERO PEDIR DISCULPAS Y DECIRLES QUE FUI PAPA, Y ESO ME ESTA COMPLICANDO MUCHISIMO EL TEMA DEL CURSADO, ESPERO PODER RETOMAR MEJOR LAS CLASES E IR PAR A PAR, PARA CUMPLIR 
+EL CURSO COMPLETO EN 6 MESES. PROMETO MEJORAR MUCHISIMO.
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras 
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+
+for: es una instruccion que nos permite ejecutar una serie de sentencias un n valor de veces como si fuera un bucle. 
+La sentencia for se escribe asi:
+
+for (var i = 0 ; i < n ; i++){
+	//secuencia de codigo
+}
+
+Como podemos ver los argunmentos de la instruccion for requieren de una variable con condicion incial, de una condicion, y 
+de una forma de incremento de dicha variable. La variable i la declaramos en el momento de ejeccucion de for y le decimos que
+dicha variable tome el valor cero, se ejecuta la condicion en este caso i<n donde n puede ser un numero cualquiera, y si dicha condicion
+es verdadera, incrementara la variable i o sea del valor 0 pasara a tener el valor 1 y ejecutara toda la secuencia de codigo que se encuentra
+entre {}. Una vez terminada la secuencia de codigo, vuelve a evaluar la condicion, en este caso con i=1 y si dicha condicion vuelve a dar
+verdadero, incrementara i de 1 a 2 y volvera a ejecutar la secuencia de codigos. Esto se le denomina bucle, ya que esa secuencia de cododigo
+se ejecutara hasta que la condicion sea falsa, o sea en este caso, hasta que i se mayor que n
+
+
+&&, ||, ! : Son operadores logicos, que nos permiten hacer una condicion mas compleja a ejecutar.
+
+El operador logico &&: es como una multiplicacion en las matematicas comunes... La condicion puede ser lo mas compleja posible sin embargo
+si solo si toda la condicion sera verdadera cuando cada factor de cada condicion sea verdadero. Este operador se denomina AND o Y en castellano
+Por ejemplo. Supongamos que queremos verificar si hay luz en una vivienda
+
+LUZ EN VIVIENDA = (DISYUNTOR==ON) && (TERMICA==ON) && (INTERRUPTOR DE LUZ == ON)
+
+Como se puede apreciar si el disyuntor esta prendido, la termica prendida y el interruptor de luz prendido, en ese caso, solo en ese caso,
+la luz prendera, de lo contrario no se prendera.
+
+El operador logico ||: es una suma en las matematicas comunes... La condicion puede ser lo mas compleja posible sin embargo, en este
+caso, la condicion sera verdadera solo si uno de los valores es veradero. Este operador se denomina OR o O en castellano.
+Por ejemplo. Sumpongamos que colocamos una alamar en nuestra casa.
+
+ALARMA SONANDO = (SENSOR1==ACTIVADO) || (SENSOR MAGNETICO1==ACTIVADO)....
+
+Como se puede apreciar la alarma sonara cuando un sensor se active. O sea que si todos los sensores estan desactivados, la alarma estara
+desactivada, con solo un sensor que se active, sin importar el estado de los otros sensores, dicha alarma sonara.
+
+El operador logico !: Este operador es una negacion. O sea, cambia el estado de la variable.
+Supongamos que tenemos una variable bool=true
+				    !bool=false
+La variable negada nos daria lo contario. Dicho operador se puede apolicar a condiciones mas complejas como por ejemplo
+la negacion del operador logico || es !||=&&
