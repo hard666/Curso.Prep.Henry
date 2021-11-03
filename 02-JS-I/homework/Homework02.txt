@@ -1,0 +1,64 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras 
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables: Es el nombre que recibe un contenedor de datos. Por ejemplo: una heladera seria una variable de la vida real, donde almacena
+supongamos bebidas. Para lograr saber que tipo de elementos se contienen almacenados exiten varios tipos de variables.
+
+Variables numericas: almacenan cualquier tipo de numero
+Variables string: almacenan cualquier tipo de letras, palabras o texto.
+Variables booleanas: son un tipo de variable que solo puede almacenar dos valores (true o false), 
+verdadero o falso. Este tipo de variables sirven para especificar el estado en que se encuentra algo, por ejemplo:
+una lampara, puede estar prendida, o apagada, true o false... etc.
+
+Existe tambien un tipo de elemento que se denomina const que solo puede almacenar uno y solo un elemeto y no puede ser modificado.
+Por ejemplo cuando queremos almacenar un valor que es constante, el numero pi=3,1416 que sabemos que ese numero es una constante y 
+que tiene que ser modificado.
+
+Strings: un string, como dijimos anteriormente, es un tipo de dato alfanumerico, donde este tipo de dato se considera y se trabaja
+como si fuera un texto, palabras o letras. 
+
+Funciones (argumentos, return): Una funcion es una seria de sentencias que se agrupan con un fin determinado. Supongamos que necesitamos
+calcular el area de un triangulo. Sabemos que el area de un triangulo es ( base x altura ) / 2. Podriamos escribir el codigo cada vez que
+necesitemos calcular el area o podemos realizar una funcion que nos devolvera dicho valor cada vez que sea invocada.
+
+Hay funciones que necesutan tener argumentos o datos de entrada para poder ser ejecutadas, sin embargo no es en todos los casos. En el 
+ejemplo anterior para calcular el area de un triangulo necesitariamos saber la base y la altura de dicho triangulo para poder darnos dicho
+resultado.
+
+return es lo que nos devuelve dicha funcion. Se especifica con la palabra return y el valor a devolver. En este ejemplo, return deberia 
+darnos el area de dicho triangulo. A su vez, return le dice a dicha funcion que se termino, sin importar en que parte del codigo de 
+ejecucion se encuentre. 
+
+ejemplo
+
+function AreaTriangulo (base,altura){
+	var area=base*altura;
+	return area:
+}
+
+Como especificamos anteriormente no todas las funciones necesitan argumentos. Supongamos que tenemos una maquina que cada vez que se 
+prende, porque tiene un sensor de movimiento, nos saluda. En este caso podriamos realizar una funciones que solo nos salude.
+
+function Saludar (){
+	return ('HOLA COMO ESTAS?');
+}
+
+Declaraciones if: Las declaraciones del tipo if, es una secuencia que nos permite realizar algun tipo de pregunta. If, en castellano,
+se lee Si... Si pasa tal cosa, entonces quiero que me realices tal cosa, si no pasa eso, que me realices tal otra. 
+
+Por lo que, cuando realizamos tal "pregunta", debemos colocar una condicion. Si esta condicion se produce, realizame tal cosa, si no
+realizame tal otra. Una condicion donde como respuesta solo puede tener TRUE o FALSE, una variable booleana.
+
+La manera de especificar esto es
+
+if (condicion) {
+	// si la condicione es verdadera ejecutara el codigo entre {}
+}
+else{
+	// si la condicion no es verdadera ejecutara el codigo entre {}
+}
+
+
+Valores booleanos (true, false). Como especificamos anteriormente, un valor booleano es un valor que solo puede tener un estado de 
+verdadero (TRUE) o un estado de falso (FALSE). Este tipo de variables que solo puede tener dos posibles estados nos permite
+describir cosas como prendido o apagado, llueve o no llueve, 1 o 0... etc.
