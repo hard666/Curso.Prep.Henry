@@ -1,0 +1,26 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras 
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Arrays: Es una forma de agrupar elementos con un orden determinado.
+
+Un arreglo o vector o matriz es una forma de agrupar datos en una variable que tiene una posicion determinada en dicho arreglo.
+
+Ejemplo:
+
+vector = [1 , 2 , 3 , 4 , 'ale' , 341];
+
+Si vemos en la variable vector, que es un arreglo, tenemos varios elementos que tienen un orden o un peso... 
+En la posicion cero del vector obtenemos el numero uno
+
+vector[0] -> 1
+
+En la posicion 1 del vector obtenemos
+
+vector [1] -> 2
+
+Y asi sucesivamente
+
+vector [2] -> 3
+vector [3] -> 4
+vector [5] -> 'ale'
+vector [6] -> 341
