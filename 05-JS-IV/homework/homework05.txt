@@ -1,0 +1,28 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras 
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos: Es una coleccion de propiedades que contienen informacion de una sola cosa. Al igual que los arreglos.
+
+Propiedades: Es una asociacion entre un nombre y un valor. En arreglos usabamos un indice numerico para acceder al valor, por eso deciamos
+que un arreglo es un conjunto de datos ordenados por un indice. Aquie en objetos usamos un nombre para asociarlo al valor, lo cual
+no hace falta que este ordenado, ya que para acceder al valor usamos el nombre del mismo. Podriamos decir que un arreglo es un objeto, donde
+las propiedades son numericas. Es mas todo en java es tratado como objeto.
+
+Métodos: Un metodo es una funcion guardada en un objeto.
+
+Bucle for…in: Al igual que el bucle for este bucle es para iterar dentro de los objetos. Como aqui las propiedades no son numericas,
+como lo son en un arreglo, debemos utilizar otro metodo para poder iterar en las propiedades. Es aqui donde existe el for....in.
+
+for (let clave in OBJETO){}
+
+Esto recorrerá cada clave del objeto y finalizará cuando se hayan iterado todas las claves. 
+
+Notación de puntos (dot notation): Nos permite acceder a la propiedad escribiendo el OBJETO.PROPIEDAD, es mas rapido para escribir, pero
+no nos permite definir una veriable con la propiedad ya que si i=propiedad al escribir OBJETO.i el interprete entienden que estoy buscando
+la propiedad i del objeto y no el nombre propiedad que es lo que se encuentra almacenado en la variable i
+
+
+Notación de corchetes (bracket notation): Nos permite acceder a la propiedad usando corchetes OBJETO['PROPIEDAD']. Permite a su vez definir
+una variable con el nombre de la propiedad i='propiedad'; y acceder asi OBJETO[i]
+
+
