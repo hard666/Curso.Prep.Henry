@@ -1,0 +1,27 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando 
+a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+prototype: Cuando creamos objetos, muchas veces necesitamos utilizar diferentes metodos, y esos metodos se copian y se duplican por cada objeto.
+Una forma de que todos los objetos sean "una copia sin error" es lo que se denomina clase. Una clase es como una plantilla a completar que
+contiene informacion de cosas comunes. Por ejemplo, la clase auto puede tener objetos como audi, renault, wv, etc. Entonces
+por cada objeto que creamos a base de una clase/plantilla, compartiremos especificaciones de dicha clase, por ejemplo, todos los autos, tienen
+ruedas, puertas, motor, etc. Cada objeto tendra las caracteristicas adecuadas de cada parametro al crearlo.
+Ahora bien, cuando hablamos de clases y objetos, exiten muchisimas funciones que se pueden usar sin ser creadas nuevamente en la clase o en el objeto.
+Todas esas funciones o metodos estan en el prototipo/prototype. Cada clase tiene una propiedad prototype, que nos devuelve todas las funciones
+y metodos especificados ya en JavaScript. Nosotros al declarar una clases estamos creando un prototypo como dijimos una planilla.
+
+
+Constructors (de Clases): Es una funcion que nos permite crear objetos. Esta funcion no retorna nada, a diferencia de los otros metodos que
+hemos visto. Cuando usamos la funcion contructors debemos referenciar a un objeto que se va a crear por eso usarmos la palabra this.
+
+class NombreDeLaClase{
+	constructor ("parametros"){
+		this.parametro1=parametro1,
+		this.parametro2=parametro2
+	}
+}
+
+Ahora como todavia no existe el objeto para crear un objeto que venga de una clase/planilla 
+usamos la funcion constructora
+
+var objeto1 = new NombreDeLaClase ("parametros");
