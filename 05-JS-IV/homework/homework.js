@@ -82,6 +82,9 @@ else
   return (true);
 }
 
+//return objeto.hasOwnProperty(propiedad);
+
+
 function verificarPassword(usuario, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
   // Devuelve "true" si coinciden
@@ -92,6 +95,8 @@ if((usuario['password']===password))
 else
   return (false);
 }
+
+// return (usuario['password']===password);
 
 function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
@@ -110,6 +115,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   usuario['amigos'][largo]=nuevoAmigo;
   return(usuario);
 }
+
+//return usuario.amigos.push(nuevoAmigo);
 
 function pasarUsuarioAPremium(usuarios) {
   // "usuarios" es un array de objetos "usuario"
