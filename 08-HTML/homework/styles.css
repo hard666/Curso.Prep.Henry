@@ -1,0 +1,27 @@
+body{
+    background-image: url('./img/sepia-1701425_960_720.webp');
+}
+
+h1{
+    color:red;
+    text-align: center;
+}
+h3{text-align: center;}
+h4{text-align: center;}
+img {
+    width: 400px;
+}
+
+#thirdDiv{
+    height: 500px;
+    width: 600px;
+    padding: 50px;
+    background-color: ghostwhite;
+    border: 10px solid black
+}
+
+#spanId{
+    font-size: 18px;
+    text-align: center;
+    margin: 50px;
+}
